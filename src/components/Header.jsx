@@ -12,7 +12,7 @@ const Appbar = styled(AppBar)(({ theme }) => ({
 
 const Logo = styled(CodeOffIcon)(({ theme }) => ({
   color: theme.palette.primary.main,
-  fontSize: '45px'
+  fontSize: '45px',
 }));
 
 const Header = () => {

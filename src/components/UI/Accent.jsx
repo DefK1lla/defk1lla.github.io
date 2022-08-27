@@ -1,10 +1,8 @@
 import { styled } from '@mui/material/styles';
 
-const Accent = styled('i')(({ theme }) => ({
-  padding: '0 0.2em',
+const Accent = styled('b')(({ theme }) => ({
   fontStyle: 'normal',
-  background: theme.palette.primary.main,
-  borderRadius: 7
+  color: theme.palette.primary.main,
 }));
 
 export default Accent;

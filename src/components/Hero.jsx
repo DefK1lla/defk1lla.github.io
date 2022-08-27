@@ -2,7 +2,7 @@ import { IconButton } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 import PageTitle from './UI/PageTitle';
-import Accent from './UI/Accent';
+import Highlight from './UI/Highlight';
 import DownloadCV from './DownloadCV';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -52,7 +52,7 @@ const Hero = () => {
         <PageTitle
           component='h1'
         >
-          Фрилансер, <Accent>Frontend</Accent>-разработчик, <Accent>HTML</Accent>-верстальщик.
+          Фрилансер, <Highlight>Frontend</Highlight>-разработчик, <Highlight>HTML</Highlight>-верстальщик.
         </PageTitle>
 
         <DownloadCV />
