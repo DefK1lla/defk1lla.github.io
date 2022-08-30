@@ -3,6 +3,7 @@ import { Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const PageTitle = styled(Typography)(({ theme }) => ({
+  zIndex: 1,
   maxWidth: 900,
   marginBottom: 30,
   fontSize: '3rem',

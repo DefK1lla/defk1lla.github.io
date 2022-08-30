@@ -2,15 +2,14 @@ import { Button } from '@mui/material';
 
 import DownloadIcon from '@mui/icons-material/Download';
 
-import cv from '../assets/cv/cv.pdf';
-
-const DownloadCV = () => {
+const DownloadCV = ({ color = 'primary' }) => {
   return (
     <Button
       variant='text'
       size='large'
+      color={color}
       startIcon={<DownloadIcon />}
-      href={cv}
+      href='./assets/cv/cv.pdf'
       download='SedrakAdoyan.pdf'
     >
       Скачать резюме

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "MERN Collections",
+    "img": "./assets/img/projects/mern-cols.jpg",
+    "type": "Пет-проект",
+    "description": "Full Stack приложение для управления коллекциями.",
+    "stack": "MongoDB / ExpressJS / ReactJS / NodeJS / MUI",
+    "github": "https://github.com/DefK1lla/itra-course-project",
+    "preview": "https://mern-collections.herokuapp.com/"
+  },
+  {
+    "title": "Landing page",
+    "img": "./assets/img/projects/propb.jpg",
+    "type": "Фриланс-заказ",
+    "description": "Верстка лендинга для онлайн-конференции портала PROПБ.",
+    "stack": "HTML / CSS / JS",
+    "github": "https://github.com/DefK1lla/conf-propb",
+    "preview": "https://defk1lla.github.io/conf-propb/"
+  },
+  {
+    "title": "MaranBet",
+    "img": "./assets/img/projects/maran.jpg",
+    "type": "Фриланс-заказ",
+    "description": "Верстка платформы ставок в криптовалюте.",
+    "stack": "HTML / SCSS / JQuery",
+    "github": "https://github.com/DefK1lla/maran",
+    "preview": "https://defk1lla.github.io/maran/dist"
+  },
+  {
+    "title": "Landing page",
+    "img": "./assets/img/projects/tzeezotje.jpg",
+    "type": "Пет-проект",
+    "description": "Верстка лендинга ресторана с отправкой формы на почту.",
+    "stack": "HTML / CSS / JS / PHP",
+    "github": "https://github.com/DefK1lla/tzeezotje",
+    "preview": "https://defk1lla.github.io/tzeezotje/dist"
+  },
+  {
+    "title": "Миграционный центр",
+    "img": "./assets/img/projects/yuzhny.jpg",
+    "type": "Фриланс-заказ",
+    "description": "Верстка сайта для миграционного центра «Полюстровский».",
+    "stack": "HTML / CSS / JS",
+    "github": "https://github.com/DefK1lla/yuzhny",
+    "preview": "https://defk1lla.github.io/yuzhny/"
+  },
+  {
+    "title": "React Fakes",
+    "img": "./assets/img/projects/fakes.jpg",
+    "type": "Пет-проект",
+    "description": "Генератор фейковых пользовательских данных с ошибками по пользовательскому сиду.",
+    "stack": "ReactJS / ExpressJS / MUI",
+    "github": "https://github.com/DefK1lla/yuzhny",
+    "preview": "https://defk1lla.github.io/yuzhny/"
+  }
+]

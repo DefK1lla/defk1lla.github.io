@@ -1,15 +1,19 @@
 import React from 'react';
 
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Hero />
-      <About />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+      </main>
     </div>
   );
 };

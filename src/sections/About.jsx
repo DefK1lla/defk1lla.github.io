@@ -3,12 +3,15 @@ import { styled } from '@mui/material/styles';
 
 import Marquee from "react-fast-marquee";
 
-import SectionTitle from './UI/SectionTitle';
-import Accent from './UI/Accent';
+import SectionTitle from '../components/SectionTitle';
+import Accent from '../components/Accent';
 
 const Wrapper = styled('section')(({ theme }) => ({
-  padding: '50px 0 0',
   background: theme.palette.common.white,
+}));
+
+const Content = styled('div')(({ theme }) => ({
+  padding: '50px 0'
 }));
 
 const Text = styled(Typography)(({ theme }) => ({
@@ -26,6 +29,7 @@ const MarqueeText = styled('span')(({ theme }) => ({
   display: 'inline-block',
   margin: '5px 30px',
   fontSize: '1.4rem',
+  fontStyle: 'italic',
   color: theme.palette.common.white
 }));
 
@@ -33,16 +37,18 @@ const About = () => {
   return (
     <Wrapper>
       <Container>
-        <SectionTitle
-          component='h2'
-        >
-          Обо мне
-        </SectionTitle>
+        <Content>
+          <SectionTitle
+            component='h2'
+          >
+            Обо мне
+          </SectionTitle>
 
-        <Text>
-          Меня зовут Адоян Седрак и я веб-разработчик. Много учусь, а в свободное время подрабатываю на фрилансе. Окончил грузинский технический университет по специальности	&#171;Информатика&#187;. Ищу работу в компании, чтобы получить опыт командной разработки. Выполняю поставленные задачи качественно и в срок. Пролистайте страницу ниже, чтобы увидеть мои работы. <br />
-          <Accent>Для меня важно, чтобы клиент остался доволен.</Accent>
-        </Text>
+          <Text>
+            Меня зовут Адоян Седрак и я веб-разработчик. Много учусь, а в свободное время подрабатываю на фрилансе. Окончил грузинский технический университет по специальности	&#171;Информатика&#187;. Ищу работу в компании, чтобы получить опыт командной разработки. Выполняю поставленные задачи качественно и в срок. Пролистайте страницу ниже, чтобы увидеть мои работы. <br />
+            <Accent>Для меня важно, чтобы клиент остался доволен.</Accent>
+          </Text>
+        </Content>
       </Container>
 
       <MarqueeTrack>
@@ -61,7 +67,7 @@ const About = () => {
           </MarqueeText>
 
           <MarqueeText>
-            Хочу иметь обширный набор навыков в разных областях.
+            Развиваю свои навыки в различнных областях.
           </MarqueeText>
         </Marquee>
 
