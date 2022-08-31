@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container } from '@mui/material';
-import { styled, alpha } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 
 import SectionTitle from '../components/SectionTitle';
 import SkillsList from '../components/SkillsList';
@@ -14,26 +14,14 @@ const Wrapper = styled('section')(({ theme }) => ({
   '&::after': {
     content: '""',
     position: 'absolute',
-    left: '8%',
-    top: '15%',
+    left: '0',
+    top: '0',
     zIndex: -999,
-    width: '20%',
-    height: '20%',
-    background: alpha(theme.palette.primary.main, 0.8),
-    borderRadius: '25%',
-    filter: 'blur(120px)'
-  },
-  '&::before': {
-    content: '""',
-    position: 'absolute',
-    right: '15%',
-    bottom: '15%',
-    zIndex: -999,
-    width: '25%',
-    height: '25%',
-    background: alpha(theme.palette.primary.main, 0.8),
-    borderRadius: '25%',
-    filter: 'blur(125px)'
+    minWidth: '100%',
+    minHeight: '100%',
+    background: 'url(./assets/img/skills/bg.svg)',
+    backgroundPosition: 'cetner',
+    filter: 'blur(136px)'
   }
 }));
 

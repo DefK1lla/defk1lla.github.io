@@ -2,10 +2,10 @@ import { Button } from '@mui/material';
 
 import DownloadIcon from '@mui/icons-material/Download';
 
-const DownloadCV = ({ color = 'primary' }) => {
+const DownloadCV = ({ color = 'primary', variant = 'text' }) => {
   return (
     <Button
-      variant='text'
+      variant={variant}
       size='large'
       color={color}
       startIcon={<DownloadIcon />}

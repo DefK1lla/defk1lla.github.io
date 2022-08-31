@@ -1,7 +1,7 @@
 import { Tooltip, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
+import { MouseParallaxContainer, MouseParallaxChild } from 'react-parallax-mouse';
 
 const Title = styled('h3')(({ theme }) => ({
   position: 'relative',
@@ -56,17 +56,15 @@ const Skill = ({ skill }) => {
         {skill.title}
       </Title>
 
-      <Icons
-        direction='row'
-        spacing={1}
-      >
+      <Icons>
         {
           skill.items.map(item =>
             <MouseParallaxChild
-              factorX={0.08} factorY={0.18}
+              factorX={0.08}
+              factorY={0.18}
+              key={item.title}
             >
               <Tooltip
-                key={item.title}
                 title={item.title}
                 enterTouchDelay={0}
                 leaveTouchDelay={1500}
@@ -78,7 +76,6 @@ const Skill = ({ skill }) => {
                     alt={item.title}
                   />
                 </IconWrapper>
-
               </Tooltip>
             </MouseParallaxChild>
           )

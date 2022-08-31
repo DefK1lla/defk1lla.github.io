@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <Parallax
       bgImage='./assets/img/projects/bg.jpg'
-      strength={400}
+      strength={300}
     >
       <Wrapper>
         <Container>
