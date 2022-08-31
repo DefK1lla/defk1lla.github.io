@@ -12,6 +12,7 @@ const ProjectsList = ({ projects }) => {
       {
         projects.map(project =>
           <Grid
+            key={project.description}
             item
             xs={12}
             sm={6}

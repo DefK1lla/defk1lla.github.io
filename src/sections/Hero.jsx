@@ -20,7 +20,7 @@ const Content = styled('div')(({ theme }) => ({
   alignItems: 'center',
 }));
 
-const Wrapper = styled('div')(({ theme }) => ({
+const Wrapper = styled('section')(({ theme }) => ({
   minWidth: '100vw',
   minHeight: '100vh',
   display: 'flex',
@@ -46,7 +46,7 @@ const ScrollDown = styled(ExpandMoreIcon)(({ theme }) => ({
 const Hero = () => {
   return (
     <Parallax
-      strength={700}
+      strength={400}
     >
       <Background>
         <BackgroundVideo
@@ -60,7 +60,7 @@ const Hero = () => {
       <Wrapper>
         <Content>
           <PageTitle
-            component='h1'
+            component='h2'
           >
             Фрилансер, <Highlight>Frontend</Highlight>-разработчик, <Highlight>HTML</Highlight>-верстальщик.
           </PageTitle>

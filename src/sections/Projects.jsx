@@ -9,8 +9,10 @@ import GitHubLink from '../components/GitHubLink';
 
 import projects from '../content/projects.json';
 
-const Wrapper = styled('div')(({ theme }) => ({
+const Wrapper = styled('section')(({ theme }) => ({
   position: 'relative',
+  width: '100%',
+  height: '100%',
   padding: '50px 0',
   '&::before': {
     content: '""',
@@ -27,7 +29,7 @@ const Projects = () => {
   return (
     <Parallax
       bgImage='./assets/img/projects/bg.jpg'
-      strength={-200}
+      strength={400}
     >
       <Wrapper>
         <Container>

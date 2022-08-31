@@ -12,7 +12,6 @@ const GitHubLink = () => {
     <BtnWrapper>
       <Button
         variant='text'
-        textTransform='none'
         size='large'
         startIcon={<GitHubIcon />}
         href='https://github.com/DefK1lla'

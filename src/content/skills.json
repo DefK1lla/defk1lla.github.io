@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Frontend",
+    "items": [
+      {
+        "title": "ES5/ES6",
+        "src": "./assets/icons/skills/js.svg"
+      },
+      {
+        "title": "JQuery",
+        "src": "./assets/icons/skills/jq.svg"
+      },
+      {
+        "title": "ReactJS",
+        "src": "./assets/icons/skills/react.svg"
+      },
+      {
+        "title": "Redux",
+        "src": "./assets/icons/skills/redux.svg"
+      },
+      {
+        "title": "MobX",
+        "src": "./assets/icons/skills/mobx.svg"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": [
+      {
+        "title": "NodeJS",
+        "src": "./assets/icons/skills/node.svg"
+      },
+      {
+        "title": "ExpressJS",
+        "src": "./assets/icons/skills/express.svg"
+      },
+      {
+        "title": "MongoDB",
+        "src": "./assets/icons/skills/mongo.svg"
+      }
+    ]
+  },
+  {
+    "title": "Вёрстка",
+    "items": [
+      {
+        "title": "HTML",
+        "src": "./assets/icons/skills/html.svg"
+      },
+      {
+        "title": "CSS",
+        "src": "./assets/icons/skills/css.svg"
+      },
+      {
+        "title": "PUG (Jade)",
+        "src": "./assets/icons/skills/pug.svg"
+      },
+      {
+        "title": "EJS",
+        "src": "./assets/icons/skills/ejs.svg"
+      },
+      {
+        "title": "SASS/SCSS",
+        "src": "./assets/icons/skills/sass.svg"
+      },
+      {
+        "title": "LESS",
+        "src": "./assets/icons/skills/less.svg"
+      },
+      {
+        "title": "Bootstrap",
+        "src": "./assets/icons/skills/bootstrap.svg"
+      },
+      {
+        "title": "Material UI",
+        "src": "./assets/icons/skills/mui.svg"
+      },
+      {
+        "title": "Styled Components",
+        "src": "./assets/icons/skills/styled-components.svg"
+      },
+      {
+        "title": "Методология BEM",
+        "src": "./assets/icons/skills/bem.svg"
+      }
+    ]
+  },
+  {
+    "title": "Прочее",
+    "items": [
+      {
+        "title": "Git",
+        "src": "./assets/icons/skills/git.svg"
+      },
+      {
+        "title": "Gulp",
+        "src": "./assets/icons/skills/gulp.svg"
+      },
+      {
+        "title": "Webpack",
+        "src": "./assets/icons/skills/webpack.svg"
+      },
+      {
+        "title": "Python",
+        "src": "./assets/icons/skills/python.svg"
+      },
+      {
+        "title": "Selenium Web Driver",
+        "src": "./assets/icons/skills/selenium.svg"
+      }
+    ]
+  }
+]
