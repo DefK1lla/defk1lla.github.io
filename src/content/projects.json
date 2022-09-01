@@ -12,7 +12,7 @@
     "title": "Конференция PROПБ",
     "img": "./assets/img/projects/propb.jpg",
     "type": "Фриланс-заказ",
-    "description": "Верстка лендинга для онлайн-конференции портала PROПБ.",
+    "description": "Верстка лендинга для онлайн-конференции по пожарной безопансоти.",
     "stack": "HTML / CSS / JS",
     "github": "https://github.com/DefK1lla/conf-propb",
     "preview": "https://defk1lla.github.io/conf-propb/"
@@ -30,7 +30,7 @@
     "title": "Landing page",
     "img": "./assets/img/projects/tzeezotje.jpg",
     "type": "Пет-проект",
-    "description": "Верстка лендинга ресторана с отправкой формы на почту.",
+    "description": "Верстка просто лендинга с отправкой формы на почту.",
     "stack": "HTML / CSS / JS / PHP",
     "github": "https://github.com/DefK1lla/tzeezotje",
     "preview": "https://defk1lla.github.io/tzeezotje/dist"

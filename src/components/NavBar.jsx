@@ -104,7 +104,7 @@ const NavBar = ({ items }) => {
           </DrawerBody>
         </DrawerContainer>
       </MobileMenu>
-    </Wrapper >
+    </Wrapper>
   )
 };
 
