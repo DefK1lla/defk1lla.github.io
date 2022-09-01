@@ -1,5 +1,7 @@
 import React from "react";
 
+import { animateScroll as scroll } from 'react-scroll';
+
 import { AppBar, Container, Toolbar, IconButton } from '@mui/material';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
 import { styled, alpha } from '@mui/material/styles';
@@ -24,7 +26,6 @@ const Logo = styled(CodeOffIcon)(({ theme }) => ({
 }));
 
 const Header = () => {
-  console.log(1)
   const [active, setActive] = React.useState(false);
   const ref = React.useRef(null);
 
@@ -50,7 +51,9 @@ const Header = () => {
     >
       <Container>
         <Toolbar>
-          <IconButton>
+          <IconButton
+            onClick={scroll.scrollToTop}
+          >
             <Logo />
           </IconButton>
 

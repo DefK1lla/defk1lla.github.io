@@ -27,7 +27,9 @@ const Wrapper = styled('section')(({ theme }) => ({
 
 const Skills = () => {
   return (
-    <Wrapper>
+    <Wrapper
+      id='skills'
+    >
       <Container
         maxWidth='sm'
       >

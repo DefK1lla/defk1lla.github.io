@@ -1,14 +1,18 @@
 [
   {
-    "title": "Обо мне"
+    "title": "Обо мне",
+    "ref": "about"
   },
   {
-    "title": "Проекты"
+    "title": "Проекты",
+    "ref": "projects"
   },
   {
-    "title": "Навыки"
+    "title": "Навыки",
+    "ref": "skills"
   },
   {
-    "title": "Контакты"
+    "title": "Контакты",
+    "ref": "contacts"
   }
 ]

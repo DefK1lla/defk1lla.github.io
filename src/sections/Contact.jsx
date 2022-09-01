@@ -16,6 +16,7 @@ const Wrapper = styled('section')(({ theme }) => ({
 const Content = styled('div')(({ theme }) => ({
   position: 'relative',
   zIndex: 2,
+  padding: '25px 0',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -34,7 +35,9 @@ const Contact = () => {
       bgImage='./assets/img/contact/bg.jpg'
       strength={300}
     >
-      <Wrapper>
+      <Wrapper
+        id='contacts'
+      >
         <Container>
           <SectionTitle
             variant='primary'

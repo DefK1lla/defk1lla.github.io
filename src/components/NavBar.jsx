@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link as ScrollLink } from 'react-scroll';
+
 import { Box, Button, IconButton, Drawer, Divider } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -19,7 +21,7 @@ const DesktopMenu = styled('nav')(({ theme, direction = 'row' }) => ({
   }
 }));
 
-const MenuLink = styled(Button)(({ theme }) => ({
+const MenuLink = styled(ScrollLink)(({ theme }) => ({
   fontWeight: 600,
   '&.active': {
     color: theme.palette.primary.main
@@ -59,10 +61,20 @@ const NavBar = ({ items }) => {
 
   const links = items.map(item =>
     <MenuLink
-      variant='string'
       key={item.title}
+      activeClass='active'
+      spy={true}
+      smooth={true}
+      offset={-100}
+      duration={1000}
+      to={item.ref}
     >
-      {item.title}
+      <Button
+        variant='string'
+      >
+        {item.title}
+
+      </Button>
     </MenuLink>
   );
 

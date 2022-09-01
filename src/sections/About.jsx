@@ -35,7 +35,9 @@ const MarqueeText = styled('span')(({ theme }) => ({
 
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper
+      id='about'
+    >
       <Container>
         <Content>
           <SectionTitle

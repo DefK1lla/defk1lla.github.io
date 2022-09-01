@@ -1,7 +1,10 @@
-import { IconButton } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import React from 'react';
 
 import { Parallax, Background } from 'react-parallax';
+import { animateScroll as scroll } from 'react-scroll';
+
+import { IconButton } from '@mui/material';
+import { styled } from '@mui/material/styles';
 
 import PageTitle from '../components/PageTitle';
 import Highlight from '../components/Highlight';
@@ -57,7 +60,9 @@ const Hero = () => {
         />
       </Background>
 
-      <Wrapper>
+      <Wrapper
+        id='hero'
+      >
         <Content>
           <PageTitle
             component='h2'
@@ -67,7 +72,9 @@ const Hero = () => {
 
           <DownloadCV />
 
-          <IconButton>
+          <IconButton
+            onClick={e => scroll.scrollTo(window.innerHeight - 50)}
+          >
             <ScrollDown />
           </IconButton>
         </Content>
