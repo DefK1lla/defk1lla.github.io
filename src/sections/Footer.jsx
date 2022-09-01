@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
-import DownloadCV from './DownloadCV';
+import DownloadCV from '../components/DownloadCV';
 
 const Wrapper = styled(Box)(({ theme }) => ({
   position: 'relative',

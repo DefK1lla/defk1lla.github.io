@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './sections/Header';
+import Footer from './sections/Footer';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Projects from './sections/Projects';

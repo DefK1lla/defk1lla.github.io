@@ -53,7 +53,7 @@
         "src": "./assets/icons/skills/css.svg"
       },
       {
-        "title": "PUG (Jade)",
+        "title": "PUG(Jade)",
         "src": "./assets/icons/skills/pug.svg"
       },
       {
@@ -67,6 +67,10 @@
       {
         "title": "LESS",
         "src": "./assets/icons/skills/less.svg"
+      },
+      {
+        "title": "Stylus",
+        "src": "./assets/icons/skills/stylus.svg"
       },
       {
         "title": "Bootstrap",

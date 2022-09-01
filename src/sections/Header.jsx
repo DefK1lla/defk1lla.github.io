@@ -1,9 +1,12 @@
 import React from "react";
 
-import { AppBar, Container, Toolbar } from '@mui/material';
+import { AppBar, Container, Toolbar, IconButton } from '@mui/material';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
-
 import { styled } from '@mui/material/styles';
+
+import NavBar from '../components/NavBar';
+
+import navItems from '../content/nav.json';
 
 const Appbar = styled(AppBar)(({ theme }) => ({
   background: 'transparent',
@@ -11,8 +14,8 @@ const Appbar = styled(AppBar)(({ theme }) => ({
 }));
 
 const Logo = styled(CodeOffIcon)(({ theme }) => ({
-  color: theme.palette.primary.main,
   fontSize: '45px',
+  color: theme.palette.primary.main,
 }));
 
 const Header = () => {
@@ -23,7 +26,13 @@ const Header = () => {
     >
       <Container>
         <Toolbar>
-          <Logo />
+          <IconButton>
+            <Logo />
+          </IconButton>
+
+          <NavBar
+            items={navItems}
+          />
         </Toolbar>
       </Container>
     </Appbar>
