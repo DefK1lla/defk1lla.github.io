@@ -72,7 +72,6 @@ const Hero = () => {
         <Collapse
           in={animate}
           {...(true ? { timeout: 1500 } : {})}
-          collapsedHeight={50}
         >
           <Content>
             <PageTitle

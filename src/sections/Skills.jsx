@@ -21,7 +21,9 @@ const Wrapper = styled('section')(({ theme }) => ({
     minHeight: '100%',
     background: 'url(./assets/img/skills/bg.svg)',
     backgroundPosition: 'cetner',
-    filter: 'blur(136px)'
+    backgroundSize: 'cover',
+    filter: 'blur(40px)',
+    opacity: 0.4
   }
 }));
 

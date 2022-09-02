@@ -66,7 +66,6 @@ const NavBar = ({ items }) => {
       spy={true}
       smooth={true}
       offset={-100}
-      duration={1000}
       to={item.ref}
     >
       <Button
