@@ -3,7 +3,7 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import { animateScroll as scroll } from 'react-scroll';
 
-import { IconButton } from '@mui/material';
+import { IconButton, Collapse } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 import PageTitle from '../components/PageTitle';
@@ -47,6 +47,12 @@ const ScrollDown = styled(ExpandMoreIcon)(({ theme }) => ({
 }));
 
 const Hero = () => {
+  const [animate, setAnimate] = React.useState(false);
+
+  React.useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   return (
     <Parallax
       strength={400}
@@ -63,21 +69,27 @@ const Hero = () => {
       <Wrapper
         id='hero'
       >
-        <Content>
-          <PageTitle
-            component='h2'
-          >
-            Фрилансер, <Highlight>Frontend</Highlight>-разработчик, <Highlight>HTML</Highlight>-верстальщик.
-          </PageTitle>
+        <Collapse
+          in={animate}
+          {...(true ? { timeout: 1500 } : {})}
+          collapsedHeight={50}
+        >
+          <Content>
+            <PageTitle
+              component='h2'
+            >
+              Фрилансер, <Highlight>Frontend</Highlight>-разработчик, <Highlight>HTML</Highlight>-верстальщик.
+            </PageTitle>
 
-          <DownloadCV />
+            <DownloadCV />
 
-          <IconButton
-            onClick={e => scroll.scrollTo(window.innerHeight - 50)}
-          >
-            <ScrollDown />
-          </IconButton>
-        </Content>
+            <IconButton
+              onClick={e => scroll.scrollTo(window.innerHeight - 50)}
+            >
+              <ScrollDown />
+            </IconButton>
+          </Content>
+        </Collapse>
       </Wrapper>
     </Parallax>
   );
