@@ -23,7 +23,7 @@ const Wrapper = styled('section')(({ theme }) => ({
     backgroundPosition: 'cetner',
     backgroundSize: 'cover',
     filter: 'blur(40px)',
-    opacity: 0.4
+    opacity: 0.3
   }
 }));
 
