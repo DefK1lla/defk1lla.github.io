@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
-import DownloadCV from '../components/DownloadCV';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const Wrapper = styled(Box)(({ theme }) => ({
   position: 'relative',
@@ -61,9 +61,14 @@ const Footer = () => {
             set.adoyan@gmail.com
           </Email>
 
-          <DownloadCV
+          <Button
             variant='string'
-          />
+            startIcon={<DataObjectIcon />}
+            href='https://www.codewars.com/dashboard'
+            target='_blank'
+          >
+            Codewars
+          </Button>
         </Content>
       </Container>
     </Wrapper >

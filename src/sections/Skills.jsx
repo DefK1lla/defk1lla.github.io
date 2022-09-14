@@ -22,6 +22,7 @@ const Wrapper = styled('section')(({ theme }) => ({
     background: 'url(./assets/img/skills/bg.svg)',
     backgroundPosition: 'cetner',
     backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
     filter: 'blur(40px)',
     opacity: 0.3
   }
