@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Paper, TextField, Button, Stack } from '@mui/material';
+import { Paper, TextField, Button, Stack, CircularProgress } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 import { useForm } from 'react-hook-form';
@@ -27,6 +27,7 @@ const Title = styled('h3')(({ thene }) => ({
 
 const ContactForm = () => {
   const [success, setSuccess] = React.useState(null);
+  const [loading, setLoading] = React.useState(false);
 
   const {
     register,
@@ -45,6 +46,7 @@ const ContactForm = () => {
 
   const onSubmit = async data => {
     try {
+      setLoading(true);
       const res = await axios.post(process.env.REACT_APP_API_URL, data);
       setSuccess(res.data.success);
     } catch (e) {
@@ -115,7 +117,8 @@ const ContactForm = () => {
             type='submit'
             variant='contained'
             formNoValidate
-
+            disabled={loading}
+            startIcon={loading && <CircularProgress size={20} />}
           >
             Отправить
           </Button>

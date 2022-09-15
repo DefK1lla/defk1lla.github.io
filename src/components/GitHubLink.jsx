@@ -16,10 +16,10 @@ const GitHubLink = ({ color = 'primary', variant = 'text' }) => {
         size='large'
         color={color}
         startIcon={<GitHubIcon />}
-        href='https://github.com/DefK1lla'
+        href='https://github.com/DefK1lla/react-portfolio'
         target='_blank'
       >
-        GitHub
+        Исходный код
       </Button>
     </BtnWrapper>
   );

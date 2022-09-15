@@ -50,10 +50,10 @@ const Footer = () => {
           <Button
             variant='string'
             startIcon={<GitHubIcon />}
-            href='https://github.com/DefK1lla/react-portfolio'
+            href='https://github.com/DefK1lla'
             target='_blank'
           >
-            Исходный код
+            GitHub
           </Button>
 
           <Email>
@@ -67,7 +67,7 @@ const Footer = () => {
             href='https://www.codewars.com/dashboard'
             target='_blank'
           >
-            Codewars
+            CodeWars
           </Button>
         </Content>
       </Container>
