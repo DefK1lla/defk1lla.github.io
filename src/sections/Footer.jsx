@@ -64,7 +64,7 @@ const Footer = () => {
           <Button
             variant='string'
             startIcon={<DataObjectIcon />}
-            href='https://www.codewars.com/dashboard'
+            href='https://www.codewars.com/users/DefK1lla'
             target='_blank'
           >
             CodeWars
