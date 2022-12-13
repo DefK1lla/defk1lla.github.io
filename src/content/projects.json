@@ -22,7 +22,7 @@
     "img": "./assets/img/projects/maran.jpg",
     "type": "Фриланс-заказ",
     "description": "Верстка платформы ставок в криптовалюте.",
-    "stack": "HTML / SCSS / JQuery",
+    "stack": "HTML / SCSS / JQuery / GULP",
     "github": "https://github.com/DefK1lla/maran",
     "preview": "https://defk1lla.github.io/maran/dist"
   },
@@ -52,5 +52,23 @@
     "stack": "ReactJS / ExpressJS / MUI",
     "github": "https://github.com/DefK1lla/itra-task6",
     "preview": "https://react-fakes.vercel.app/"
+  },
+  {
+    "title": "Gem Puzzle",
+    "img": "./assets/img/projects/gem-puzzle.jpg",
+    "type": "Пет-проект",
+    "description": "Игра пятнашки. Одна из задач курса RS School JavaScipt/Frontend.",
+    "stack": "HTML / SCSS / JS / GULP",
+    "github": "https://github.com/DefK1lla/gem-puzzle",
+    "preview": "https://defk1lla.github.io/gem-puzzle/"
+  },
+  {
+    "title": "Songbird",
+    "img": "./assets/img/projects/songbird.jpg",
+    "type": "Пет-проект",
+    "description": "Приложение-викторина для распознавания птиц по их голосам. Одна из задач курса RS School JavaScipt/Frontend.",
+    "stack": "HTML / SCSS / JS / GULP",
+    "github": "https://github.com/DefK1lla/songbird",
+    "preview": "https://defk1lla.github.io/songbird/"
   }
 ]
