@@ -57,7 +57,7 @@
     "title": "Gem Puzzle",
     "img": "./assets/img/projects/gem-puzzle.jpg",
     "type": "Пет-проект",
-    "description": "Игра пятнашки. Одна из задач курса RS School JavaScipt/Frontend.",
+    "description": "Игра пятнашки.",
     "stack": "HTML / SCSS / JS / GULP",
     "github": "https://github.com/DefK1lla/gem-puzzle",
     "preview": "https://defk1lla.github.io/gem-puzzle/"
@@ -66,7 +66,7 @@
     "title": "Songbird",
     "img": "./assets/img/projects/songbird.jpg",
     "type": "Пет-проект",
-    "description": "Приложение-викторина для распознавания птиц по их голосам. Одна из задач курса RS School JavaScipt/Frontend.",
+    "description": "Приложение-викторина для распознавания птиц по их голосам.",
     "stack": "HTML / SCSS / JS / GULP",
     "github": "https://github.com/DefK1lla/songbird",
     "preview": "https://defk1lla.github.io/songbird/"
