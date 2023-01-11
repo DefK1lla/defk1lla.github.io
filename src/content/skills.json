@@ -3,6 +3,10 @@
     "title": "Frontend",
     "items": [
       {
+        "title": "TypeScript",
+        "src": "./assets/icons/skills/ts.svg"
+      },
+      {
         "title": "ES5/ES6",
         "src": "./assets/icons/skills/js.svg"
       },

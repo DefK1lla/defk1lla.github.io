@@ -9,6 +9,15 @@
     "preview": "https://mern-collections.vercel.app/"
   },
   {
+    "title": "Online store",
+    "img": "./assets/img/projects/online-store.jpg",
+    "type": "Пет-проект",
+    "description": "Интернет-магазин, разработанный в команде из двух человек.",
+    "stack": "TypeScript / ReactJS / MUI",
+    "github": "https://github.com/DefK1lla/online-store/tree/develop",
+    "preview": "https://defk1lla-online-store-rs.netlify.app/"
+  },
+  {
     "title": "Конференция PROПБ",
     "img": "./assets/img/projects/propb.jpg",
     "type": "Фриланс-заказ",
