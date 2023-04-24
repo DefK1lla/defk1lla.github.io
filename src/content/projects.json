@@ -82,7 +82,7 @@
   },
   {
     "title": "Lumosity clone",
-    "img": "./assets/img/projects/songbird.jpg",
+    "img": "./assets/img/projects/rs.jpg",
     "type": "Пет-проект",
     "description": "Частичный клон сайта Lumosity. Разработан в команде из 3 человек.",
     "stack": "TS / ReactJS / RTK / ExpressJS",
