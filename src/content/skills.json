@@ -25,6 +25,10 @@
       {
         "title": "MobX",
         "src": "./assets/icons/skills/mobx.svg"
+      },
+      {
+        "title": "NextJS",
+        "src": "./assets/icons/skills/next-js.svg"
       }
     ]
   },
