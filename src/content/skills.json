@@ -33,6 +33,10 @@
       {
         "title": "NextJS",
         "src": "./assets/icons/skills/next-js.svg"
+      },
+      {
+        "title": "GraphQL",
+        "src": "./assets/icons/skills/graphql.svg"
       }
     ]
   },
