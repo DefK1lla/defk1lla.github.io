@@ -27,6 +27,10 @@
         "src": "./assets/icons/skills/mobx.svg"
       },
       {
+        "title": "Zustand",
+        "src": "./assets/icons/skills/zustand.svg"
+      },
+      {
         "title": "NextJS",
         "src": "./assets/icons/skills/next-js.svg"
       }
