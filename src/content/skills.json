@@ -122,12 +122,16 @@
         "src": "./assets/icons/skills/webpack.svg"
       },
       {
-        "title": "Python",
-        "src": "./assets/icons/skills/python.svg"
+        "title": "Vite",
+        "src": "./assets/icons/skills/vite.svg"
       },
       {
-        "title": "Selenium Web Driver",
-        "src": "./assets/icons/skills/selenium.svg"
+        "title": "Vitest",
+        "src": "./assets/icons/skills/vitest.svg"
+      },
+      {
+        "title": "Jest",
+        "src": "./assets/icons/skills/jest.svg"
       }
     ]
   }
